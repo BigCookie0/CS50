@@ -253,10 +253,3 @@ void print_winner(void)
     return;
 }
 
-void swap (pair *n, pair *k)
-{
-    pair tmp = *n;
-    *n = *k;
-    *k = tmp;
-}
-
